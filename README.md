@@ -14,6 +14,9 @@ git status
 //////
 git commit -m 'changed sample'
 
+git push
+
+
 git branch -a
 
 to delete all files in cashed  (  git rm -r .  )
