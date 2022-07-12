@@ -77,7 +77,9 @@ git config --global alias.dump 'cat-file -p'
 git status, git add, git commit, and git checkout are common commands so it is a good idea to have abbreviations for them.
 
 Add the following to the .gitconfig file in your $HOME directory.
-
+  
+### 
+ /*
 FILE: .GITCONFIG
 [alias]
   co = checkout
@@ -87,5 +89,6 @@ FILE: .GITCONFIG
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
+*/
 ---------------------------------------------
 
