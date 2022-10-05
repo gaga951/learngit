@@ -24,6 +24,10 @@ $ git commit -m 'changed sample'
 
 git log
 
+git log -p
+
+git show <commit hash code>
+
 ### Single line format:
 
 git log --pretty=oneline
