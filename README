@@ -6,6 +6,14 @@ $ git init
 
 $ git add singlefile.ext
 
+-----
+
+### add multiple file wich starts with same specific name
+
+$ git add specificname*
+
+-----
+
 $ git add .
 
 $ git status
