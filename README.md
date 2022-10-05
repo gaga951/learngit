@@ -41,7 +41,15 @@ $ git push
 
 $ git branch -a
 
-### to delete all files in cashed  (  git rm -r .  )
+### to delete all files in cashed
+
+$ git rm -r .
+
+### to unstage specific file
+
+$ git rm --cached filename
+
+### to set username and email global parameters for our system
 
 $ git config --global user.name 'name'
 
