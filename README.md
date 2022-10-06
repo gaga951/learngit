@@ -42,14 +42,34 @@ git log --pretty=oneline
 ### other display of entries
 
 git log --pretty=oneline --max-count=2
+  
 git log --pretty=oneline --since='5 minutes ago'
+  
 git log --pretty=oneline --until='5 minutes ago'
+  
 git log --pretty=oneline --author=<your name>
+  
 git log --pretty=oneline --all
 
 
 $ git push
+  
+  
+  
+### To create new branch 
+  
+$ git branch newbranchname
+  
+### If i am in master branch I can merge newbranch to master branch using command
+  
+$ git merge newbranchname
+  
+### To delete branch 
+  
+$ git branch -d newbranchname  
 
+### To see list of braches
+  
 $ git branch -a
 
 ### to delete all files in cashed
@@ -63,7 +83,9 @@ $ git rm --cached filename
 ### After editing changes to already commited file, we can undo file changes
   
 $ git restore filename
+  
   or
+  
 $ git checkout filename
  
 -------
