@@ -63,6 +63,8 @@ $ git rm --cached filename
 ### After editing changes to already commited file, we can undo file changes
   
 $ git restore filename
+  or
+$ git checkout filename
  
 -------
   
