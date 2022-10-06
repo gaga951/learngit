@@ -14,6 +14,22 @@ $ git config --global user.name 'name'
 
 $ git config --global user.email 'email' 
 
+### to clone remote repository in your local folder
+
+$ git clone https://repourl
+
+### To initialize as remote repo in our current folder 
+
+$ git remote add origin https://repourl
+
+### we can check curent config file
+
+vi .git/config
+
+### To chek perrmisions we have in remote repo
+
+git remote -v
+
 
 ### add multiple file wich starts with same specific name
 
