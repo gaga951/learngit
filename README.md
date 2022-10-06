@@ -8,6 +8,13 @@ $ git add singlefile.ext
 
 -----
 
+### to set username and email global parameters for our system
+
+$ git config --global user.name 'name'
+
+$ git config --global user.email 'email' 
+
+
 ### add multiple file wich starts with same specific name
 
 $ git add specificname*
@@ -52,12 +59,26 @@ $ git rm -r .
 ### to unstage specific file
 
 $ git rm --cached filename
+  
+### After editing changes to already commited file, we can undo file changes
+  
+$ git restore filename
+ 
+-------
+  
+### If accedentally deleted file via 
+  
+$ git rm filename 
+  
+### we can revert it by
+  
+$ git restore --stage filename
+  
+$ git restore filename  
+  
+-------
 
-### to set username and email global parameters for our system
 
-$ git config --global user.name 'name'
-
-$ git config --global user.email 'email' 
 
 
 ### Step 1: From your project repository, bring in the changes and test.
